@@ -5,22 +5,23 @@ body{
 h1{
     text-align: center;
     font-family: Agdasima;
-    font-size: 50px;
+    font-size: 5pc;
     margin-top: 40px;
     letter-spacing: 5px;
     word-spacing: 10px;
 }
 
-#btn{
+#choices{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 500px;
+    height: 200px;
+    margin-top: 2pc;
 }
 
-button{
+.choiceBtn{
     width: 20%;
-    height: 200px;
+    height: 100px;
     cursor: pointer;
     background-color: #ffea00;
     border: 0;
@@ -33,6 +34,49 @@ button{
 
 #result{
     font-family: Agdasima;
-    font-size: 20px;
+    font-size: 2pc;
     text-align: center;
+    margin-top: 6pc;
+}
+
+#score{
+    display: flex;
+    justify-content: center;
+    margin-top: 4pc;
+}
+
+#score .score{
+    background-color: white;
+    border: 3px solid black;
+    padding: 1pc;
+    font-size: 2pc;
+    margin: 0 2pc;
+    border-radius: 10px;
+}
+
+#reset{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#reset-btn{
+    background-color: white;
+    height: 40px;
+    width: 10%;
+    font-size: 1pc;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1pc;
+}
+
+#reset-btn:hover{
+    background-color: gray;
+    color: white;
+}
+
+#computer-choice{
+    text-align: center;
+    font-family: Agdasima;
+    font-size: 2pc;
 }
